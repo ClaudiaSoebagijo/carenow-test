@@ -1,0 +1,140 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    direction: row;
+    background-color: #fbe7e6;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+    position: relative;
+}
+
+nav { 
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: medium;
+}
+
+nav a:hover {
+    color: #D54873;
+}
+
+.logout {
+    background-color: #f68faf;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.logout:hover {
+    background-color: #D54873;
+}   
+
+main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #000;
+}
+
+.required-star {
+    color: #D54873;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    color:#000
+}
+
+input, 
+select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+select {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+}
+
+button.submit {
+    align-self: flex-end;
+    background-color: #f68faf;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: medium;;
+}
+
+button.submit:hover {
+    background-color: #D54873 ;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-top: 1rem;
+}
